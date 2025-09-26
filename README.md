@@ -42,7 +42,7 @@ Bingo is a simple, fun, and fully customizable Bingo app. You can generate Bingo
 
 ## How to Download from Release
 
-- Go to the [Releases](https://github.com/NahumDm/bingo.git/releases) page.
+- Go to the [Releases](https://github.com/NahumDm/bingo/tags) page.
 - Download the latest APK for Android.
 
 ## License
