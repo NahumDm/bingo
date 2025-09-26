@@ -67,9 +67,9 @@ class _BingoScreenState extends State<BingoScreen> {
           style: TextStyle(
             color: const Color.fromARGB(255, 15, 3, 3),
             fontSize: Constants.appbarFont,
-            fontFamily: ' Super Sunday',
+            fontFamily: 'Super Sunday',
             fontStyle: FontStyle.italic,
-            fontWeight: FontWeight.bold,
+            fontWeight: FontWeight.normal,
           ),
         ),
         centerTitle: true,
