@@ -25,8 +25,17 @@ class _BingoScreenState extends State<BingoScreen> {
     _loadCards();
   }
 
+  //Dispose TextEditingControllers
+  @override
+  void dispose() {
+    _controller1.dispose();
+    _controller2.dispose();
+    super.dispose();
+  }
+
   void _loadCards() async {
     await _provider.loadCards();
+    if (!mounted) return;
     setState(() {});
   }
 

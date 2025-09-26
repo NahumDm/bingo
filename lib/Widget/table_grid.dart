@@ -18,8 +18,17 @@ class _TableGridState extends State<TableGrid> {
   @override
   void initState() {
     super.initState();
-    // 5 columns x 5 rows, but N column has a star in the center
     clicked = List.generate(5, (col) => List.generate(5, (row) => false));
+  }
+
+  @override
+  void didUpdateWidget(covariant TableGrid oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.card != widget.card) {
+      setState(() {
+        clicked = List.generate(5, (col) => List.generate(5, (row) => false));
+      });
+    }
   }
 
   void clearClicked() {
