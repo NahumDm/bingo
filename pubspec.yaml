@@ -41,5 +41,7 @@ flutter:
   fonts:
     - family: Bitcount Grid Double
       fonts:
-        # - asset: assets/fonts/bitcoin.ttf
         - asset: assets/fonts/BitcountGridDouble-ExtraBold.ttf
+    - family: Super Sunday
+      fonts:
+        - asset: assets/fonts/SuperSunday-vn3MA.ttf

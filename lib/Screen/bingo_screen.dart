@@ -63,12 +63,13 @@ class _BingoScreenState extends State<BingoScreen> {
       //AppBar
       appBar: AppBar(
         title: Text(
-          'bingo',
+          'Revo Bingo',
           style: TextStyle(
             color: const Color.fromARGB(255, 15, 3, 3),
             fontSize: Constants.appbarFont,
-            fontFamily: 'Bitcount Grid Double',
+            fontFamily: ' Super Sunday',
             fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
           ),
         ),
         centerTitle: true,
