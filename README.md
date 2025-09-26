@@ -34,11 +34,11 @@ Bingo is a simple, fun, and fully customizable Bingo app. You can generate Bingo
 
 ## Screenshots
 
-<img src="assets/screenshots/1.png" width="400" height="200" />
-<img src="assets/screenshots/2.png" width="400" height="200" />
-<img src="assets/screenshots/3.png" width="400" height="200" />
-<img src="assets/screenshots/4.png" width="400" height="200" />
-<img src="assets/screenshots/5.png" width="400" height="200" />
+<img src="assets/screenshots/1.png" width="150" height="350" />
+<img src="assets/screenshots/2.png" width="150" height="350" />
+<img src="assets/screenshots/3.png" width="150" height="350" />
+<img src="assets/screenshots/4.png" width="150" height="350" />
+<img src="assets/screenshots/5.png" width="150" height="350" />
 
 ## How to Download from Release
 
